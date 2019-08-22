@@ -122,6 +122,6 @@ document.querySelector("#book-list").addEventListener("click", e => {
   //Remove book from Store
   Store.removeBooks(e.target.parentElement.previousElementSibling.textContent);
 
-  //Show success message
+  //Show success remove message
   UI.showAlert("Book Remove", "success");
 });
